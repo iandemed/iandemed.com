@@ -3,14 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>iandemed</title>
+    <title>iandemed | About</title>
     <!-- CDN link to bulma's standard style-sheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-    <link rel="stylesheet" href="./css/index.css">
   </head>
 
   <body>
-
+      
     <nav class="navbar has-shadow is-primary">
         <!-- Hamburger menu - must be a child of navbar-brand -->
         <div class="navbar-brand">
@@ -23,33 +22,21 @@
 
         <div class="navbar-menu" id="nav-links">
             <div class="navbar-start">
-                <a class="navbar-item"> Home</a>
+                <a class="navbar-item" href="index.html"> Home</a>
                 <a class="navbar-item" href="about.html"> About </a>
                 <a class="navbar-item"> Projects </a>
                 <a class="navbar-item"> Resumes </a>
             </div>
         </div>
     </nav>
-    
-    <section class="section is-large">
-        <div class="container has-text-centered">
-            <h1 class="title is-uppercase is-spaced has-text-white">
-                Ian de Medeiros
-            </h1>
-            <p class="subtitle has-text-weight-bold has-text-white">
-                Software Engineer | Researcher | Story Teller
-            </p>
 
-            <!-- download property is only available for HTML5 -->
-            <a href="assets/de_Medeiros_Resume.pdf" download="de_Medeiros_Resume.pdf">
-                <button class="button is-primary" id="resume-button">
-                    <figure class="image is-24x24 p-1">
-                        <img src="assets/download-icon-white.svg">
-                    </figure>
-                    <span>Download Resume</span>
-                </button>
-            </a>
-        </div>
+    <section class="section">
+
+        <figure class="image is-128x128">
+            <img src="assets/headshot.png" alt="headshot" class="is-rounded">
+
+        </figure>
+
     </section>
 
     <footer class="footer is-primary is-small">
@@ -60,6 +47,6 @@
         </div>
     </footer>
 
-    <script src="index.js"></script>
   </body>
-</html>
+
+  </html>
