@@ -6,17 +6,14 @@
     <title>iandemed</title>
     <!-- CDN link to bulma's standard style-sheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/index.css">
   </head>
 
   <body>
 
     <nav class="navbar has-shadow is-primary">
-        <!-- logo / brand -->
+        <!-- Hamburger menu - must be a child of navbar-brand -->
         <div class="navbar-brand">
-            <a class="navbar-item">
-                <img src="assets/iandemed_logo_white.png" alt = "iandemed" style="max-height: 70px;", class="py-2 px-2">
-            </a>
-
             <a href="" class="navbar-burger" id="burger">
                 <span></span>
                 <span></span>
@@ -25,7 +22,7 @@
         </div>
 
         <div class="navbar-menu" id="nav-links">
-            <div class="navbar-end">
+            <div class="navbar-start">
                 <a class="navbar-item"> About </a>
                 <a class="navbar-item"> Projects </a>
                 <a class="navbar-item"> Resumes </a>
@@ -35,10 +32,10 @@
     
     <section class="section is-large">
         <div class="container has-text-centered">
-            <h1 class="title is-uppercase is-spaced">
+            <h1 class="title is-uppercase is-spaced has-text-white">
                 Ian de Medeiros
             </h1>
-            <p class="subtitle has-text-weight-bold">
+            <p class="subtitle has-text-weight-bold has-text-white">
                 Software Engineer | Researcher | Story Teller
             </p>
             <button class="button is-primary">
@@ -50,7 +47,6 @@
         </div>
     </section>
 
-<!-- Add a footer -->
     <footer class="footer is-primary is-small">
         <div class="content has-text-centered">
             <p>

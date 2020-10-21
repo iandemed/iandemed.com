@@ -1,0 +1,9 @@
+body {
+  height: 100vh;
+}
+
+section.section {
+  background-image: url(../assets/homepage-img-background.png);
+  background-position: center center;
+  background-size: cover;
+}
