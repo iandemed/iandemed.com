@@ -7,3 +7,10 @@ section.section {
   background-position: center center;
   background-size: cover;
 }
+
+.navbar {
+  /* The default value for bulma navbars is relative, which was causing small 
+  line between the navbar and the next section to appear. Changing position to
+  inherit causes this gap to disappear. */
+  position: inherit;
+}
