@@ -12,7 +12,7 @@
 
   <body>
 
-    <nav class="navbar has-shadow is-primary">
+    <nav class="navbar is-fixed-top is-primary">
         <!-- Hamburger menu - must be a child of navbar-brand -->
         <div class="navbar-brand">
             <a href="" class="navbar-burger" id="burger">
@@ -26,30 +26,198 @@
             <div class="navbar-start">
                 <a class="navbar-item" href="index.html"> Home</a>
                 <a class="navbar-item" href="about.html"> About </a>
-                <a class="navbar-item" href="projects.html"> Projects </a>
             </div>
         </div>
     </nav>
     
-    <section class="section is-large">
-        <div class="container has-text-centered">
-            <h1 class="title is-uppercase is-spaced has-text-white">
-                Ian de Medeiros
-            </h1>
-            <p class="subtitle has-text-weight-bold has-text-white">
-                Software Engineer | Researcher | Story Teller
-            </p>
+    <section class="hero is-large" id="landing">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-uppercase is-spaced has-text-white">
+                    Ian de Medeiros
+                </h1>
+                <p class="subtitle has-text-weight-bold has-text-white">
+                    Software Engineer | Researcher | Story Teller
+                </p>
 
-            <!-- download property is only available for HTML5 -->
-            <a href="assets/de_Medeiros_Resume.pdf" download="de_Medeiros_Resume.pdf">
-                <button class="button is-primary" id="resume-button">
-                    <figure class="image is-24x24 p-1">
-                        <img src="assets/download-icon-white.svg">
-                    </figure>
-                    <span>Download Resume</span>
-                </button>
-            </a>
+                <!-- download property is only available for HTML5 -->
+                <a href="assets/de_Medeiros_Resume.pdf" download="de_Medeiros_Resume.pdf">
+                    <button class="button is-primary" id="resume-button">
+                        <figure class="image is-24x24 p-1">
+                            <img src="assets/download-icon-white.svg">
+                        </figure>
+                        <span>Download Resume</span>
+                    </button>
+                </a>
+            </div>
         </div>
+    </section>
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="columns is-vcentered">
+                <div class="column has-text-centered">
+                    <figure class="image is-128x128 is-inline-block">
+                        <img src="assets/headshot.png" alt="headshot" class="is-rounded">
+                    </figure>
+                </div>
+
+                <div class="column is-four-fifths">
+                    <h2 class="title is-uppercase">
+                        Lorem, ipsum.
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio obcaecati, labore pariatur sapiente sunt natus dicta expedita eos optio repudiandae, earum quos vero? Perspiciatis enim eligendi itaque ipsa ad!
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illo ratione exercitationem sunt. Repellat temporibus minima aliquid sunt aliquam ullam! Saepe doloremque animi blanditiis unde consequuntur temporibus sequi atque illum. 
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hero is-small">
+        <section class="hero-body has-background-light has-text-centered">
+            <div class="container">
+                
+                <h1 class="title is-uppercase mb-4 p-3"> Skills: </h1>
+                <section class="is-flex is-flex-wrap-wrap is-justify-content-space-evenly py-5" id="skills-logos">
+
+                    <figure class="image is-128x128">
+                        <img src="assets/html-logo.png">
+                    </figure>
+                    <figure class="image is-128x128">
+                        <img src="assets/css-logo.png">
+                    </figure>
+                    <figure class="image is-128x128">
+                        <img src="assets/javascript-logo.png">
+                    </figure>
+                    <figure class="image is-128x128">
+                        <img src="assets/python-logo.png">
+                    </figure>
+                    <figure class="image is-128x128">
+                        <img src="assets/git-logo.png">
+                    </figure>
+                    <figure class="image is-128x128">
+                        <img src="assets/heroku-logo.png">
+                    </figure>
+                    <figure class="image is-128x128">
+                        <img src="assets/django-logo.png">
+                    </figure>
+
+                </section>
+
+            </div>
+        </section>
+    </section>
+
+    <section class="hero">
+        <section class="hero-body has-text-centered">
+
+            <h1 class="title is-uppercase mb-4 p-3"> Projects: </h1>
+            <div class="container is-flex is-flex-wrap-wrap is-justify-content-space-evenly py-5">
+                <div class="card">
+                    <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="assets/developer-verse-screenshot.png" alt="Developer Verse Landing Page">
+                    </figure>
+                    </div>
+                    <div class="card-content">              
+                        <div class="content">
+                            <h1 class="title">
+                                Developer Verse
+                            </h1>
+                            <p>
+                                Full Stack app created in conjunction with my classmates
+                                at General Assembly. I was instrumental in constructing
+                                the back-end and permissions using Python, Django, and
+                                PostgreSQL, and as well as deploying the back-end to 
+                        Heroku.
+                            </p>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="https://developerverse.netlify.app/" class="card-footer-item">Site</a>
+                        <a href="https://github.com/SEI-39/developerverse" class="card-footer-item">Repo</a>
+                    </footer>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="assets/first-families-api-screenshot.png" alt="First Families Landing Page">
+                    </figure>
+                    </div>
+                    <div class="card-content">              
+                        <div class="content">
+                            <h1 class="card-header-title">
+                                First Families API
+                            </h1>
+                            <p>
+                                Full Stack MERN application that I created to hold 
+                                basic biographical information on each president and
+                                their descendants.
+                        </p>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href=" https://iandemed.github.io/first-families/" class="card-footer-item">Site</a>
+                        <a href="https://github.com/iandemed/first-families" class="card-footer-item">Repo</a>
+                    </footer>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="assets/hanafuda-solitaire-screenshot.png" alt="Hanafuda Tableau">
+                    </figure>
+                    </div>
+                    <div class="card-content">              
+                        <div class="content">
+                            <h1 class="card-header-title">
+                                Hanafuda Solitaire
+                            </h1>
+                            <p>
+                                Hanafuda, or flower cards, are Japanese playing cards that
+                                are used to play a variety of games. I recreated Hanafuda 
+                                solitaire using base JavaScript, HTML, and CSS.
+                            </p>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="https://iandemed.github.io/hanafuda-solitaire/" class="card-footer-item">Website</a>
+                        <a href="https://github.com/iandemed/hanafuda-solitaire" class="card-footer-item">Repo</a>
+                    </footer>
+                </div>
+        
+                <div class="card">
+                    <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="assets/cheese_db_structure.png" alt="Cheese DB Structure">
+                    </figure>
+                    </div>
+                    <div class="card-content">              
+                        <div class="content">
+                            <h1 class="title">
+                                py-cheesi
+                            </h1>
+                        <p>
+                                Python API created using PostgreSQL, Express, and Flask 
+                                with web-data I scraped from <a href="https://cheese.com/">cheese.com</a>.
+                            </p>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="https://github.com/iandemed/py-cheesi" class="card-footer-item">Repo</a>
+                    </footer>
+                </div>
+
+            </div>
+        </section>
     </section>
 
     <footer class="footer is-flex is-justify-content-space-between">

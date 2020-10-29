@@ -1,8 +1,4 @@
-body {
-  height: 100vh;
-}
-
-section.section {
+#landing {
   background-image: url(../assets/homepage-img-background.png);
   background-position: center center;
   background-size: cover;
@@ -13,4 +9,14 @@ section.section {
   line between the navbar and the next section to appear. Changing position to
   inherit causes this gap to disappear. */
   position: inherit;
+}
+
+.card {
+  max-width: 380px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#skills-logos > figure {
+  padding: 5px;
 }
