@@ -20,3 +20,7 @@
 #skills-logos > figure {
   padding: 5px;
 }
+
+.contact-entry > img {
+  width: 32px;
+}
