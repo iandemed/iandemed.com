@@ -1,4 +1,4 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Default .gitignore created automaitcally using create-react-app
 
 # dependencies
 /node_modules
