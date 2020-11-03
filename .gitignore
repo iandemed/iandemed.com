@@ -28,3 +28,7 @@ Temporary Items
 
 # Ignore installed node modules
 *\node_modules
+
+# Ignore custom bulma files for testing enviornment
+*\sass
+mystyles.css
