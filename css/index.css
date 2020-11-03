@@ -2,10 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.is-primary {
-  background-color: #240046;
-}
-
 /* Nav-bar */
 
 .navbar-item:hover {
