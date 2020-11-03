@@ -21,15 +21,17 @@
         <!-- Hamburger menu - must be a child of navbar-brand -->
         <div class="navbar-brand">
             <a href="" class="navbar-burger" id="burger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="has-text-white"></span>
+                <span class="has-text-white"></span>
+                <span class="has-text-white"></span>
             </a>
         </div>
 
         <div class="navbar-menu" id="nav-links">
             <div class="navbar-start">
-                <a class="navbar-item" href="index.html"> Home</a>
+                <a class="navbar-item" href="#landing"> Home</a>
+                <a class="navbar-item" href="#about-me"> About Me</a>
+                <a class="navbar-item" href="#portfolio"> Projects</a>
             </div>
         </div>
     </nav>
@@ -45,33 +47,35 @@
                         <figure class="image is-24x24 p-1">
                             <img src="assets/download-icon-white.svg">
                         </figure>
-                        <span>Download Resume</span>
+                        <span class="has-text-white">Download Resume</span>
                     </button>
                 </a>
             </div>
         </div>
     </section>
 
-    <section class="hero">
+    <section class="hero" id="about-me">
         <div class="hero-body">
-            <div class="columns is-vcentered">
-                <div class="column has-text-centered">
-                    <figure class="image is-128x128 is-inline-block">
-                        <img src="assets/headshot.png" alt="headshot" class="is-rounded">
-                    </figure>
-                </div>
+            <div class="container box">
+                <div class="columns is-vcentered">
+                    <div class="column has-text-centered">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img src="assets/headshot.png" alt="headshot" class="is-rounded">
+                        </figure>
+                    </div>
 
-                <div class="column is-four-fifths">
-                    <h2 class="title is-uppercase">
-                        Software Engineer | Researcher | Story Teller
-                    </h2>
-                    <p>
-                        I am an aspiring software engineer, data evangelist, once and future teacher, and perpetual student. I particularly enjoy the intersection between intuitive design and data-driven visualizations. I am passionate about combining real-world data and clean code to tell engaging stories.
-                    </p>
-                    <br>
-                    <p>
-                        In my spare time, you can find me preparing new adventures for Dungeons & Dragons and trying to make the perfect cup of coffee.
-                    </p>
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-uppercase">
+                            Software Engineer | Researcher | Story Teller
+                        </h2>
+                        <p>
+                            I am an aspiring software engineer, data evangelist, once and future teacher, and perpetual student. I particularly enjoy the intersection between intuitive design and data-driven visualizations. I am passionate about combining real-world data and clean code to tell engaging stories.
+                        </p>
+                        <br>
+                        <p>
+                            In my spare time, you can find me preparing new adventures for Dungeons & Dragons and trying to make the perfect cup of coffee.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,7 +117,7 @@
         </section>
     </section>
 
-    <section class="hero">
+    <section class="hero" id="portfolio">
         <section class="hero-body has-text-centered">
 
             <h1 class="title is-uppercase mb-4 p-3"> Projects: </h1>
@@ -191,28 +195,6 @@
                         <a href="https://github.com/iandemed/hanafuda-solitaire" class="card-footer-item">Repo</a>
                     </footer>
                 </div>
-        
-                <div class="card">
-                    <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="assets/cheese_db_structure.png" alt="Cheese DB Structure">
-                    </figure>
-                    </div>
-                    <div class="card-content">              
-                        <div class="content">
-                            <h1 class="title">
-                                py-cheesi
-                            </h1>
-                        <p>
-                                Python API created using PostgreSQL, Express, and Flask 
-                                with web-data I scraped from <a href="https://cheese.com/">cheese.com</a>.
-                            </p>
-                        </div>
-                    </div>
-                    <footer class="card-footer">
-                        <a href="https://github.com/iandemed/py-cheesi" class="card-footer-item">Repo</a>
-                    </footer>
-                </div>
 
             </div>
         </section>
@@ -230,7 +212,7 @@
                             <img src="assets/phone-icon.png"> +1 (443)-694-9372
                         </p>
                         <p class="contact-entry">
-                            <img src="assets/email-icon.png"> iandemed@gmail.com
+                            <img src="assets/email-icon.png"> <a href="mailto:iandemed@gmail.com">iandemed@gmail.com</a>
                         </p>
                     </div>
                 </div>

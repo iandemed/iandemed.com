@@ -1,5 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
 
-/* BODY */
+.is-primary {
+  background-color: #240046;
+}
+
+/* Nav-bar */
+
+.navbar-item:hover {
+  color: #000000;
+}
+
+/* Body */
 
 #landing {
   background-image: url(../assets/homepage-img-background.png);
@@ -17,18 +30,22 @@
   padding: 5px;
 }
 
+.about-me-card {
+  margin: 0px;
+}
+
 /* FOOTER */
 
 /* Remove automaic 1em bottom margin after p tags within the specifed boxes */
-.contact-body p:not(:last-child){
+.contact-body p:not(:last-child) {
   margin-bottom: 0.25rem;
 }
 
-.built-by p:not(:last-child){
+.built-by p:not(:last-child) {
   margin-bottom: 0.5rem;
 }
 
-.contact-entry{
+.contact-entry {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -38,11 +55,11 @@
   padding: 0.5rem 0.25rem;
 }
 
-.contact-card:not(:last-child){
+.contact-card:not(:last-child) {
   margin-bottom: 0.5rem;
 }
 
 /* Logo is a higher resolution, but looked out of place at larger sizes */
-.logo{
+.logo {
   max-width: 256px;
 }
