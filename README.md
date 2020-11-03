@@ -21,6 +21,7 @@ I plan to implement a number of new features:
 
 - Sections for Work experience, teaching experience, and previous research
 - Additional projects from my GitHub
+- Refactor to build HTML elements with React
 
 ### Credits
 
