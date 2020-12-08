@@ -33,12 +33,28 @@ html {
   justify-self: end;
 }
 
-#skills-logos > figure {
-  padding: 5px;
+.about-me {
+  max-width: 80%;
 }
 
-.about-me-card {
-  margin: 0px;
+.about-me > .container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-me-body{
+  display: inline-block;
+  max-width: 60%;
+}
+
+@media (max-width: 600px){
+  .about-me-body{
+    max-width: 100%;
+  }
+}
+
+#skills-logos > figure {
+  padding: 5px;
 }
 
 /* FOOTER */
