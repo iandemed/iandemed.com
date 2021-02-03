@@ -53,6 +53,12 @@ html {
   }
 }
 
+/* Overwriting media adjustments for padding that cause landing page to appear 
+  larger than desired on certain sized screens */
+#landing-body {
+  padding: 3rem 1.5rem; 
+}
+
 #skills-logos > figure {
   padding: 5px;
 }
