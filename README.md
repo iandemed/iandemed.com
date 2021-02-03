@@ -1,4 +1,4 @@
-![iandemed](./assets/iandemed_logo_banner.png)
+![iandemed](./assets/logos/iandemed_logo_banner.png)
 
 ### Overview
 
