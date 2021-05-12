@@ -1,27 +1,38 @@
 {
-  "name": "iandemed.dev",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "bulma": "^0.9.1",
-    "iandemed-portfolio-styling": "^1.0.1",
-    "node-sass": "^5.0.0"
+  "name": "iandemed.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iandemed/iandemed.dev.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iandemed/iandemed.dev/issues"
-  },
-  "homepage": "https://github.com/iandemed/iandemed.dev#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
