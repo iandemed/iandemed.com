@@ -1,5 +1,7 @@
 import './App.css';
 
+import NavBar from './components/NavBar.jsx'
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <NavBar/>
     </div>
   );
 }
