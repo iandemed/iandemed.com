@@ -20,7 +20,7 @@ function AboutMe(){
                     <p>
                     In my spare time, you can find me preparing new adventures 
                     for Dungeons &#38; Dragons and trying to make the perfect cup of
-                     coffee.
+                    coffee.
                     </p>
                 </div>
             </div>
