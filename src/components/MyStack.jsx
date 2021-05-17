@@ -12,7 +12,7 @@ function MyStack(){
 
     return(
         <div id="my-stack" className="section-hero">
-            <h1>
+            <h1 className="hero-header">
                 My Stack
             </h1>
 
@@ -25,7 +25,7 @@ function MyStack(){
                 <StackSkillList skillList={backendSkills}/>
             </div>
             <div className="stack-list">
-                <h3>Front-end Frameworks</h3>
+                <h3>Deployment</h3>
                 <StackSkillList skillList={deploymentSkills}/>
             </div>
             

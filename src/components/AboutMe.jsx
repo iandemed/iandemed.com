@@ -6,9 +6,9 @@ import headshot from '../imgs/headshot.png'
 function AboutMe(){
     return(
         <div id="about" className="section-hero bg-primary">
-            <img src={headshot} alt="headshot" class/>
+            <img src={headshot} alt="headshot"/>
             <div className="about-section">
-                <h2 className="txt-is-white">Software Engineer | Research | Story Teller</h2>
+                <h2 className="txt-is-white">Software Engineer | Researcher | Story Teller</h2>
                 <div className="about-body">
                     <p>
                     I am an aspiring software engineer, data evangelist, once 
