@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../styles/general.css'
+import '../../styles/general.css'
 
 function LandingHero(){
     return(

@@ -1,8 +1,8 @@
 import React from 'react'
 
-import '../styles/general.css'
+import '../../styles/general.css'
 
-import StackSkillList from './StackSkillList'
+import StackSkillList from '../StackSkillList'
 
 function MyStack(){
 

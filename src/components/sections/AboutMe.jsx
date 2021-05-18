@@ -1,7 +1,7 @@
 import React from 'react'
 
-import '../styles/general.css'
-import headshot from '../imgs/headshot.png'
+import '../../styles/general.css'
+import headshot from '../../imgs/headshot.png'
 
 function AboutMe(){
     return(

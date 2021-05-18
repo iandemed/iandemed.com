@@ -1,8 +1,8 @@
 import React from 'react'
 
-import '../styles/general.css'
+import '../../styles/general.css'
 
-import ProjectCard from './ProjectCard.jsx'
+import ProjectCard from '../ProjectCard.jsx'
 
 function ProjectsHero(){
 

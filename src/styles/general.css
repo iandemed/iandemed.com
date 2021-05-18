@@ -2,11 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
+body, .App {
+    width: 100%;
+}
 /* ---- General CSS classes ----*/
 
 .txt-is-white{
     color: white;
 }
+
 
 .bg-primary-dark{
     background-color: #140078;
@@ -106,7 +110,7 @@ h2{
     background-attachment: fixed;
 
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 
     display: inline-flex;
     align-items: center;
@@ -114,7 +118,9 @@ h2{
 }
 
 .section-hero{
-    padding: 6rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    width: 100%;
 }
 
 #about{
@@ -162,17 +168,15 @@ h2{
 
 .stack-list{
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.5rem;
 }
 
 .stack-list > h3 {
     font-size: 3rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-
-.stack-list {
-    display: flex;
-    flex-direction: column;
 }
 
 /* ----- Projects ----- */
@@ -243,3 +247,72 @@ h2{
     border-right: 1px solid #ededed; 
 }
 
+
+
+/* ----- Projects ----- */
+#footer {
+    background-color: #F5F5F6;
+    padding: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-card{
+    text-align: left;
+}
+
+.contact-card > h1{
+    margin: 0px;
+}
+
+.contact-card:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .contact-item > img {
+    width: 32px;
+    padding: 0.5rem 0.25rem;
+  }
+
+
+.icon{
+    height: 2rem;
+}
+
+.social-media-bar a:not(:last-child){
+    margin-right: 1.5rem;
+}
+
+.content-column{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: Roboto;
+}
+
+.content-column > *:not(:last-child){
+    margin: 0px;
+    padding-bottom: 0.5rem;
+}
+
+.content-column > h1 {
+    text-decoration: underline;
+}
+
+.content-link{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content-link:visited{
+    color: black;
+}
