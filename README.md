@@ -1,5 +1,3 @@
-![iandemed](./assets/iandemed_logo_banner.png)
-
 ### Overview
 
 [iandemed.dev](https://www.iandemed.dev/) is my personal portfolio website that I create using HTML, vanilla JavaScript, and Bulma. Currently, users are able to view a brief overview of some of my technical skills, a selection of projects from my GitHub account, and download my resume.
