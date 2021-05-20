@@ -101,48 +101,6 @@ h2{
     padding-right: 17px;
 }
 
-
-
-/*
-
-.navbar-burger {
-    flex-shrink: 0;
-    color: #ffffff;
-    cursor: pointer;
-    display: block;
-    height: 3.25rem;
-    position: relative;
-    width: 3.25rem;
-    margin-left: auto;
-}
-    .navbar-burger span {
-      background-color: currentColor;
-      display: block;
-      height: 1px;
-      left: calc(50% - 8px);
-      position: absolute;
-      transform-origin: center;
-      transition-duration: 86ms;
-      transition-property: background-color, opacity, transform;
-      transition-timing-function: ease-out;
-      width: 16px; }
-      .navbar-burger span:nth-child(1) {
-        top: calc(50% - 6px); }
-      .navbar-burger span:nth-child(2) {
-        top: calc(50% - 1px); }
-      .navbar-burger span:nth-child(3) {
-        top: calc(50% + 4px); }
-    .navbar-burger:hover {
-      background-color: rgba(0, 0, 0, 0.05); }
-    .navbar-burger.is-active span:nth-child(1) {
-      transform: translateY(5px) rotate(45deg); }
-    .navbar-burger.is-active span:nth-child(2) {
-      opacity: 0; }
-    .navbar-burger.is-active span:nth-child(3) {
-      transform: translateY(-5px) rotate(-45deg); }
-
-*/
-
 @media screen and (min-width: 1024px){
     .navbar-burger {
         display: none;
@@ -154,34 +112,6 @@ h2{
     .link{
         font-size: 13px;
     }
-    /*
-    .navbar-menu {
-        display: none;
-        background-color: white;
-        box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
-        padding-bottom: 0.5rem 
-    }
-        .navbar-menu.is-active {
-          display: block;
-        }
-    .download-item{
-        margin-left: 8px;
-    }
-    .download-item{
-        border-color: #140078;
-    }
-
-    .navbar-item:hover, 
-    .download-item:hover
-    .navbar-item:focus, 
-    .download-item:focus{
-        background-color: #fafafa
-    }
-
-    .link, .link:visited{
-        color: #140078;
-    }
-    */
 }
 /* ---- Landing Page ---- */
 
