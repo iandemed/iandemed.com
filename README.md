@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/58cfb98c-0a5e-4105-aa18-4cac4b86931f/deploy-status)](https://app.netlify.com/sites/iandemed/deploys)
 
-[iandemed.dev](https://www.iandemed.dev/) is my personal portfolio website that I create using HTML, vanilla JavaScript, and Bulma. Currently, users are able to view a brief overview of some of my technical skills, a selection of projects from my GitHub account, and download my resume.
+[iandemed.dev](https://www.iandemed.dev/) is my personal portfolio website that I create using ReactJS. Currently, users are able to view a brief overview of some of my technical skills, a selection of projects from my GitHub account, and download my resume.
 
 ### Technology Used
 
@@ -27,4 +27,4 @@ I plan to implement a number of new features:
 ### Credits
 
 - Sabo Extened - [Philippe Moesch](https://www.behance.net/PhilippeMoesch)
-- Just after dusk in midtown - [Joe Taylor](https://unsplash.com/@joetaylorland)
+- Landing Page Background - [Helianthus Games](https://helianthus-games.itch.io/pixel-art-planets)
