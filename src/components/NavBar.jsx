@@ -2,7 +2,6 @@ import React,  {useRef} from 'react'
 
 import NavButton from './NavButton.jsx'
 import DownloadButton from './DownloadButton.jsx'
-import NavBurger from './NavBurger.jsx'
 
 import '../styles/general.css'
 
