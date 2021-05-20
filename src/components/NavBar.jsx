@@ -19,7 +19,7 @@ function NavBar(){
                 <NavButton text="Projects" link="#projects"/>
                 <NavButton text="About" link="#about"/>
                 <NavButton text="My Stack" link="#my-stack"/>
-                <DownloadButton text="resume" filepath="/de_Medeiros_Resume.pdf"/>
+                <DownloadButton text="resume" filepath="/de_Medeiros_Ian_Resume.pdf"/>
             </div>
 
         </nav>

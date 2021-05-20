@@ -6,16 +6,21 @@ function StackSkillList({skillList}){
     return(
         <ul>
             {skillList.map((skill, i) => {
-
+                
+                let listElement = null
+            
                 if(typeof skill === 'string'){
-                    return (
-                        <li key={i} className="font-size-2">
+                    
+                    listElement = (
+                        <li key={skill} className="font-size-2">
                             {skill}
                         </li>
                     )
                 } else if (skill instanceof Array){
-                    return (<StackSkillList skillList={skill}/>)
+                    listElement = <StackSkillList skillList={skill}/>
                 }
+
+                return listElement
 
             })}
         </ul>

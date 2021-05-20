@@ -18,15 +18,22 @@ function MyStack(){
 
             <div className="stack-list">
                 <h3>Front-end Frameworks</h3>
-                <StackSkillList skillList={frontendSkills}/>
+                <StackSkillList 
+                    skillList={frontendSkills}
+                />
             </div>
             <div className="stack-list">
                 <h3>Back-end Frameworks</h3>
-                <StackSkillList skillList={backendSkills}/>
+                <StackSkillList 
+                    skillList={backendSkills}
+
+                />
             </div>
             <div className="stack-list">
                 <h3>Deployment</h3>
-                <StackSkillList skillList={deploymentSkills}/>
+                <StackSkillList 
+                    skillList={deploymentSkills}
+                />
             </div>
             
 
