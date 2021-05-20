@@ -15,7 +15,6 @@ function NavBar(){
             <div 
                 className="navbar-menu" 
                 ref={navbarMenu}
-                onBlur={handleBlur}
             >
                 <NavButton text="Projects" link="#projects"/>
                 <NavButton text="About" link="#about"/>
