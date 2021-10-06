@@ -23,6 +23,7 @@ I plan to implement a number of new features:
    - Continue to update with additional projects
 - ~~Refactor to build HTML elements with React~~
 - Streamline CSS styling
+- Custom splash image on initial navigation to home-page
 
 ### Credits
 
